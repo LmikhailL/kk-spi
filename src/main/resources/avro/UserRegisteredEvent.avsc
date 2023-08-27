@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "UserRegisteredEvent",
+  "namespace": "com.avro.events.streaming",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    }
+  ]
+}

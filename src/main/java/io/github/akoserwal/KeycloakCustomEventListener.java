@@ -8,6 +8,7 @@ import org.keycloak.models.KeycloakSession;
 import org.keycloak.models.RealmModel;
 import org.keycloak.models.RealmProvider;
 import org.keycloak.models.UserModel;
+import com.avro.events.streaming.UserRegisteredEvent;
 
 public class KeycloakCustomEventListener implements EventListenerProvider {
 
